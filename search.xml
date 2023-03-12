@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>“博客备案过程”</title>
+      <title>博客备案过程</title>
       <link href="/2023/03/12/%E5%8D%9A%E5%AE%A2%E5%A4%87%E6%A1%88%E8%BF%87%E7%A8%8B/"/>
       <url>/2023/03/12/%E5%8D%9A%E5%AE%A2%E5%A4%87%E6%A1%88%E8%BF%87%E7%A8%8B/</url>
       
@@ -23,9 +23,9 @@
     
     
     <entry>
-      <title>“终于把live-2d删干净了”</title>
-      <link href="/2023/03/11/%E2%80%9C%E7%BB%88%E4%BA%8E%E6%8A%8Alive-2d%E5%88%A0%E5%B9%B2%E5%87%80%E4%BA%86%E2%80%9D/"/>
-      <url>/2023/03/11/%E2%80%9C%E7%BB%88%E4%BA%8E%E6%8A%8Alive-2d%E5%88%A0%E5%B9%B2%E5%87%80%E4%BA%86%E2%80%9D/</url>
+      <title>终于把live-2d删干净了</title>
+      <link href="/2023/03/11/%E7%BB%88%E4%BA%8E%E6%8A%8Alive-2d%E5%88%A0%E5%B9%B2%E5%87%80%E4%BA%86/"/>
+      <url>/2023/03/11/%E7%BB%88%E4%BA%8E%E6%8A%8Alive-2d%E5%88%A0%E5%B9%B2%E5%87%80%E4%BA%86/</url>
       
         <content type="html"><![CDATA[<p>##干掉live-2d</p><p>因为这个玩意太烦人了，搞也搞不好，看大佬的成品也不好看，算了，算了</p><p>##如何删除live-2d</p><p>首先删除\themes\next\layout下_layout.swig文件内的与live2d有关的代码</p><p>同时删除所有关于live的设置</p><p>放命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$npm</span> uninstall hexo-helper-live2d -g</span><br></pre></td></tr></table></figure><p>再次使用hexo三剑客解决</p><p>用hexo s本地部署查看效果。</p>]]></content>
       
